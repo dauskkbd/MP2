@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+#BravoMe_logo {
+  width: 200px;
+}
+
+#navbar_section {
+  z-index: 10;
+}

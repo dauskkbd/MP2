@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="BravoMe.css" />
+    <title>BravoMe Lifestyle</title>
+  </head>
+
+  <body>
+    <nav
+      id="navbar_section"
+      class="navbar navbar-expand-sm bg-dark navbar-dark"
+    >
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="BravoMe.html">
+            <img
+              src="images/BravoMe_logo.png"
+              alt="website logo depicting a form of a muscled person cut out from a green bowl"
+              id="BravoMe_logo"
+              class="img-fluid"
+            />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="text"
+              placeholder="What do you need?"
+            />
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="fitness_carousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#fitness_carousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#fitness_carousel"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#fitness_carousel"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/carousel_1_jogging.jpg"
+            alt="a man jogging by the shore"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption d-none d-sm-block">
+            <h1>Live your life to the fullest</h1>
+            <p class="fs-5">with just 15 minutes of home workout everyday</p>
+          </div>
+          <div class="carousel-caption d-block d-sm-none">
+            <h1>Live your life to the fullest</h1>
+            <p>with just 15 minutes of home workout everyday</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/carousel_2_eating.jpg"
+            alt="a young girl eating sliced fruits on a bowl"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption d-none d-sm-block">
+            <h1>A menu based on your fitness goal</h1>
+            <p>you can order or you can cook</p>
+          </div>
+          <div class="carousel-caption d-block d-sm-none">
+            <h1>A menu based on your fitness goal</h1>
+            <p>you can order or you can cook</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/carousel_3_meditating.jpg"
+            alt="an old woman meditating by a garden with a water sprinkler"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption d-none d-sm-block">
+            <h1>Find your fitness</h1>
+            <p class="fs-5">in both mind and body</p>
+          </div>
+          <div class="carousel-caption d-block d-sm-none">
+            <h1>Find your fitness</h1>
+            <p>in both mind and body</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#fitness_carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#fitness_carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-6 mb-3">
+          <div class="card" id="">
+            <img
+              class="card-img-top"
+              src="images/egg-roll.webp"
+              alt="scrambled egg on a bowl with vegetables and chopsticks resting on top of the bowl"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Egg Roll in a bowl(Healthy & Easy)</h5>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">See Recipe</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 mb-3">
+          <div class="card" id="">
+            <img
+              class="card-img-top"
+              src="images/glutten_free_chicken_nuggets.jpg"
+              alt="chicken nuggets shaped in square and circles topped up with a bit of sauce"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chicken Nuggets / Glutten Free</h5>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">See Recipe</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 mb-3">
+          <div class="card" id="">
+            <img
+              class="card-img-top"
+              src="images/salsa_chicken_recipe.jpg"
+              alt="crushed chicked with onions, green chili, and sliced calamansi on top of rice"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Salsa Chicken / Instant Pot or Slow Cook
+              </h5>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">See Recipe</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 mb-3">
+          <div class="card" id="">
+            <img
+              class="card-img-top"
+              src="images/crockpot_bbq_beef.jpg"
+              alt="shredded beef with barebque sauce"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Crockpot BBQ Beef / Healthy & Whole</h5>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">See Recipe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
